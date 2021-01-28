@@ -57,6 +57,7 @@ body {
 
 .navbar-links li {
     list-style:none;
+    margin-right:5px;
 }
 
 .navbar-links li a {
@@ -70,11 +71,6 @@ body {
     padding-left:20px;
 }
 
-.navbar-links li a:hover {
-    background-color:#134f5c;
-    transition-duration:0.5s;
-}
-
 .toggle-button {
     position:absolute;
     top:14px;
@@ -86,9 +82,45 @@ body {
     height:28px;
 }
 
+/* Adapted from Justin's design @ https://codepen.io/jstn */
+
+.navbar-links li a.button {
+    background-color:transparent;
+    border:none;
+}
+
+.navbar-links li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -2px;
+    content: "";
+    display: block;
+    height: 2px;
+    background: #fff;
+    transition: 0.5s ease 0s, left 0.5s ease 0s;
+    width: 0;
+}
+  
+.navbar-links li a:hover:after { 
+    width: 100%; 
+    left: auto;
+}
+
+@media (max-width: 1000px) {
+    .navbar-links li a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        background: #fff;
+        transition: 0.8s ease 0s, left 0.8s ease 0s;
+        width: 0;
+    }
+}
+
+
 .toggle-button .bar {
     height:3px;
-    width:100%;
     background-color:white;
     border-radius:10px;
 }
