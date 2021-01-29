@@ -4,7 +4,6 @@ body {
     overflow:hidden;
     scroll-behavior: smooth;
     color:white;
-    background-image: url("images/background.jpg");
     box-sizing:border-box;
 }
 
@@ -22,21 +21,7 @@ body {
     bottom:0px;
 }
 
-/* Discord */
-
-.discord {
-    position:absolute;
-    bottom:20px;
-    right:20px;
-}
-
-@media (max-width: 1680px) {
-    .discord {
-        display:none;
-    }
-}
-
-/* Main body part 1 */
+/* Main body */
 
 #main-cover-page {
     position:fixed;

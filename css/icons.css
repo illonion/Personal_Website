@@ -1,0 +1,42 @@
+.icons {
+    margin-top:20px;
+}
+
+.icon {
+    color:white;
+    margin-left:10px;
+    margin-right:10px;
+    transition-duration:0.2s;
+}
+
+.icon:hover {
+    transition-duration:0.2s;
+}
+
+#icon-discord:hover {
+    color:rgb(114, 137, 217);
+}
+
+#icon-twitter:hover {
+    color:rgb(29,161,242);
+}
+
+#icon-github:hover {
+    color:grey;
+}
+
+#icon-instagram:hover {
+    color:rgb(200,61,142);
+}
+
+#icon-envelope:hover {
+    color:rgb(29,195,247);
+}
+
+#icon-steam:hover {
+    color:rgb(18,124,174);
+}
+
+#icon-twitch:hover {
+    color:rgb(145, 70, 225);
+}
