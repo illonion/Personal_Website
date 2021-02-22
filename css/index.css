@@ -52,7 +52,7 @@ p {
 
 .box {
     width:500px;
-    height:500px;
+    height:550px;
     max-width:95%;
     max-height:75%;
     overflow:scroll;
@@ -63,6 +63,7 @@ p {
 /* About Page */
 
 .non-main-page-h1 {
+    padding-top:5px;
     font-family: 'Sacramento', cursive;
     font-size:32px; 
 }
