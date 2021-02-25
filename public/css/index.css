@@ -23,7 +23,7 @@ body {
 
 /* Main body */
 
-#main-cover-page, #about-cover-page {
+#main-cover-page, #normal-cover-page {
     position:fixed;
     text-align: center;
     top:50%;
