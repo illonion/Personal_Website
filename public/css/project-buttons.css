@@ -23,7 +23,7 @@
     margin-bottom:auto;
 }
 
-.tournament-button {
+.project-button {
     margin:10px 0px;
     width:75%;
     opacity:0.65;
@@ -31,9 +31,38 @@
     max-height:80px;
 }
 
-.tournament-button:hover {
+.project-button:hover {
     margin:15px 0px;
     opacity:1;
     transition:0.3s;
 }
 
+.project-box {
+    margin: 15px auto;
+    width:90%;
+    border:solid;
+    border-color:white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height:1.5;
+    padding: 15px;
+}
+
+.project-box p {
+    font-size:14px;
+}
+
+.tournament-button {
+    width:80%;
+    margin:1px;
+    text-align: center;
+    line-height:1.5;
+    opacity:0.6;
+    transition:0.3s;
+}
+
+.tournament-button:hover {
+    margin:15px 0px;
+    opacity:1;
+    transition:0.3s;
+}
